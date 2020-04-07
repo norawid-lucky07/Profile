@@ -14,6 +14,16 @@ export default [
       },
       {
         _name: 'CSidebarNavTitle',
+        _children: ['Register']
+      },
+      {
+        _name: 'CSidebarNavItem',
+        name: 'Register',
+        to: '/register/register',
+        icon: 'cil-contact'
+      },
+      {
+        _name: 'CSidebarNavTitle',
         _children: ['Theme']
       },
       {

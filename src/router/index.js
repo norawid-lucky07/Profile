@@ -57,6 +57,9 @@ const Register = () => import('@/views/pages/Register')
 const Users = () => import('@/views/users/Users')
 const User = () => import('@/views/users/User')
 
+// Register
+const Registers = () => import('@/views/form/Register')
+
 Vue.use(Router)
 
 export default new Router({
@@ -78,6 +81,21 @@ function configRoutes () {
           path: 'dashboard',
           name: 'Dashboard',
           component: Dashboard
+        },
+        {
+          path: 'register',
+          redirect: '/form/register',
+          name: 'Form',
+          component: {
+            render (c) { return c('router-view') }
+          },
+          children: [
+            {
+              path: 'register',
+              name: 'Registers',
+              component: Registers
+            }
+          ]
         },
         {
           path: 'theme',
