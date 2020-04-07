@@ -19,7 +19,7 @@ export default [
       {
         _name: 'CSidebarNavItem',
         name: 'Register',
-        to: '/register/register',
+        to: '/register',
         icon: 'cil-contact'
       },
       {

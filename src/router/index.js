@@ -84,8 +84,8 @@ function configRoutes () {
         },
         {
           path: 'register',
-          redirect: '/form/register',
-          name: 'Form',
+          redirect: '/register/register',
+          name: 'Register',
           component: {
             render (c) { return c('router-view') }
           },
