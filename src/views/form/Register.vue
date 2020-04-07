@@ -12,7 +12,7 @@
                   style="width: 125px; height: 125px;"
                   src=""
                 />
-                <span class="img-span">UPLOAD</span>
+                <span class="img-span">Edit</span>
               </div>
             </div>
           </CCol>
