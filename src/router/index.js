@@ -83,9 +83,9 @@ function configRoutes () {
           component: Dashboard
         },
         {
-          path: 'register',
-          redirect: '/register/register',
-          name: 'Register',
+          path: 'form',
+          redirect: '/form/register',
+          name: 'Form',
           component: {
             render (c) { return c('router-view') }
           },
